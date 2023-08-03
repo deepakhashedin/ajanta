@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		93758B5F2A7B89E50077E345 /* AjantaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93758B5E2A7B89E50077E345 /* AjantaApp.swift */; };
+		93758B612A7B89E50077E345 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93758B602A7B89E50077E345 /* ContentView.swift */; };
+		93758B632A7B89E80077E345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93758B622A7B89E80077E345 /* Assets.xcassets */; };
+		93758B662A7B89E80077E345 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93758B652A7B89E80077E345 /* Preview Assets.xcassets */; };
+		93758B702A7B89E90077E345 /* AjantaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93758B6F2A7B89E90077E345 /* AjantaTests.swift */; };
+		93758B7A2A7B89E90077E345 /* AjantaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93758B792A7B89E90077E345 /* AjantaUITests.swift */; };
+		93758B7C2A7B89E90077E345 /* AjantaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93758B7B2A7B89E90077E345 /* AjantaUITestsLaunchTests.swift */; };
+		93868BE42A7B8B120064F85C /* AppCenterAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 93868BE32A7B8B120064F85C /* AppCenterAnalytics */; };
+		93868BE62A7B8B120064F85C /* AppCenterCrashes in Frameworks */ = {isa = PBXBuildFile; productRef = 93868BE52A7B8B120064F85C /* AppCenterCrashes */; };
+		93868BE82A7B8B120064F85C /* AppCenterDistribute in Frameworks */ = {isa = PBXBuildFile; productRef = 93868BE72A7B8B120064F85C /* AppCenterDistribute */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		93758B6C2A7B89E90077E345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93758B532A7B89E50077E345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93758B5A2A7B89E50077E345;
+			remoteInfo = Ajanta;
+		};
+		93758B762A7B89E90077E345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 93758B532A7B89E50077E345 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93758B5A2A7B89E50077E345;
+			remoteInfo = Ajanta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		93758B5B2A7B89E50077E345 /* Ajanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ajanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93758B5E2A7B89E50077E345 /* AjantaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjantaApp.swift; sourceTree = "<group>"; };
+		93758B602A7B89E50077E345 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		93758B622A7B89E80077E345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93758B652A7B89E80077E345 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93758B6B2A7B89E90077E345 /* AjantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93758B6F2A7B89E90077E345 /* AjantaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjantaTests.swift; sourceTree = "<group>"; };
+		93758B752A7B89E90077E345 /* AjantaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AjantaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93758B792A7B89E90077E345 /* AjantaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjantaUITests.swift; sourceTree = "<group>"; };
+		93758B7B2A7B89E90077E345 /* AjantaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjantaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93758B582A7B89E50077E345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93868BE42A7B8B120064F85C /* AppCenterAnalytics in Frameworks */,
+				93868BE62A7B8B120064F85C /* AppCenterCrashes in Frameworks */,
+				93868BE82A7B8B120064F85C /* AppCenterDistribute in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93758B682A7B89E90077E345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93758B722A7B89E90077E345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		93758B522A7B89E50077E345 = {
+			isa = PBXGroup;
+			children = (
+				93758B5D2A7B89E50077E345 /* Ajanta */,
+				93758B6E2A7B89E90077E345 /* AjantaTests */,
+				93758B782A7B89E90077E345 /* AjantaUITests */,
+				93758B5C2A7B89E50077E345 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		93758B5C2A7B89E50077E345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93758B5B2A7B89E50077E345 /* Ajanta.app */,
+				93758B6B2A7B89E90077E345 /* AjantaTests.xctest */,
+				93758B752A7B89E90077E345 /* AjantaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93758B5D2A7B89E50077E345 /* Ajanta */ = {
+			isa = PBXGroup;
+			children = (
+				93758B5E2A7B89E50077E345 /* AjantaApp.swift */,
+				93758B602A7B89E50077E345 /* ContentView.swift */,
+				93758B622A7B89E80077E345 /* Assets.xcassets */,
+				93758B642A7B89E80077E345 /* Preview Content */,
+			);
+			path = Ajanta;
+			sourceTree = "<group>";
+		};
+		93758B642A7B89E80077E345 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				93758B652A7B89E80077E345 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93758B6E2A7B89E90077E345 /* AjantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				93758B6F2A7B89E90077E345 /* AjantaTests.swift */,
+			);
+			path = AjantaTests;
+			sourceTree = "<group>";
+		};
+		93758B782A7B89E90077E345 /* AjantaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				93758B792A7B89E90077E345 /* AjantaUITests.swift */,
+				93758B7B2A7B89E90077E345 /* AjantaUITestsLaunchTests.swift */,
+			);
+			path = AjantaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		93758B5A2A7B89E50077E345 /* Ajanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93758B7F2A7B89E90077E345 /* Build configuration list for PBXNativeTarget "Ajanta" */;
+			buildPhases = (
+				93758B572A7B89E50077E345 /* Sources */,
+				93758B582A7B89E50077E345 /* Frameworks */,
+				93758B592A7B89E50077E345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ajanta;
+			packageProductDependencies = (
+				93868BE32A7B8B120064F85C /* AppCenterAnalytics */,
+				93868BE52A7B8B120064F85C /* AppCenterCrashes */,
+				93868BE72A7B8B120064F85C /* AppCenterDistribute */,
+			);
+			productName = Ajanta;
+			productReference = 93758B5B2A7B89E50077E345 /* Ajanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		93758B6A2A7B89E90077E345 /* AjantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93758B822A7B89E90077E345 /* Build configuration list for PBXNativeTarget "AjantaTests" */;
+			buildPhases = (
+				93758B672A7B89E90077E345 /* Sources */,
+				93758B682A7B89E90077E345 /* Frameworks */,
+				93758B692A7B89E90077E345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93758B6D2A7B89E90077E345 /* PBXTargetDependency */,
+			);
+			name = AjantaTests;
+			productName = AjantaTests;
+			productReference = 93758B6B2A7B89E90077E345 /* AjantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		93758B742A7B89E90077E345 /* AjantaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93758B852A7B89E90077E345 /* Build configuration list for PBXNativeTarget "AjantaUITests" */;
+			buildPhases = (
+				93758B712A7B89E90077E345 /* Sources */,
+				93758B722A7B89E90077E345 /* Frameworks */,
+				93758B732A7B89E90077E345 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				93758B772A7B89E90077E345 /* PBXTargetDependency */,
+			);
+			name = AjantaUITests;
+			productName = AjantaUITests;
+			productReference = 93758B752A7B89E90077E345 /* AjantaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		93758B532A7B89E50077E345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					93758B5A2A7B89E50077E345 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					93758B6A2A7B89E90077E345 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 93758B5A2A7B89E50077E345;
+					};
+					93758B742A7B89E90077E345 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 93758B5A2A7B89E50077E345;
+					};
+				};
+			};
+			buildConfigurationList = 93758B562A7B89E50077E345 /* Build configuration list for PBXProject "Ajanta" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 93758B522A7B89E50077E345;
+			packageReferences = (
+				93868BE22A7B8B120064F85C /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
+			);
+			productRefGroup = 93758B5C2A7B89E50077E345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93758B5A2A7B89E50077E345 /* Ajanta */,
+				93758B6A2A7B89E90077E345 /* AjantaTests */,
+				93758B742A7B89E90077E345 /* AjantaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		93758B592A7B89E50077E345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93758B662A7B89E80077E345 /* Preview Assets.xcassets in Resources */,
+				93758B632A7B89E80077E345 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93758B692A7B89E90077E345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93758B732A7B89E90077E345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		93758B572A7B89E50077E345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93758B612A7B89E50077E345 /* ContentView.swift in Sources */,
+				93758B5F2A7B89E50077E345 /* AjantaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93758B672A7B89E90077E345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93758B702A7B89E90077E345 /* AjantaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93758B712A7B89E90077E345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93758B7A2A7B89E90077E345 /* AjantaUITests.swift in Sources */,
+				93758B7C2A7B89E90077E345 /* AjantaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		93758B6D2A7B89E90077E345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93758B5A2A7B89E50077E345 /* Ajanta */;
+			targetProxy = 93758B6C2A7B89E90077E345 /* PBXContainerItemProxy */;
+		};
+		93758B772A7B89E90077E345 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93758B5A2A7B89E50077E345 /* Ajanta */;
+			targetProxy = 93758B762A7B89E90077E345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		93758B7D2A7B89E90077E345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		93758B7E2A7B89E90077E345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		93758B802A7B89E90077E345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ajanta/Preview Content\"";
+				DEVELOPMENT_TEAM = 2NH3J56GT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajanta.beta.Ajanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		93758B812A7B89E90077E345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ajanta/Preview Content\"";
+				DEVELOPMENT_TEAM = 2NH3J56GT3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajanta.beta.Ajanta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		93758B832A7B89E90077E345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NH3J56GT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajanta.beta.AjantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ajanta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ajanta";
+			};
+			name = Debug;
+		};
+		93758B842A7B89E90077E345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NH3J56GT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajanta.beta.AjantaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ajanta.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ajanta";
+			};
+			name = Release;
+		};
+		93758B862A7B89E90077E345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NH3J56GT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajanta.beta.AjantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ajanta;
+			};
+			name = Debug;
+		};
+		93758B872A7B89E90077E345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2NH3J56GT3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ajanta.beta.AjantaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ajanta;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		93758B562A7B89E50077E345 /* Build configuration list for PBXProject "Ajanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93758B7D2A7B89E90077E345 /* Debug */,
+				93758B7E2A7B89E90077E345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93758B7F2A7B89E90077E345 /* Build configuration list for PBXNativeTarget "Ajanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93758B802A7B89E90077E345 /* Debug */,
+				93758B812A7B89E90077E345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93758B822A7B89E90077E345 /* Build configuration list for PBXNativeTarget "AjantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93758B832A7B89E90077E345 /* Debug */,
+				93758B842A7B89E90077E345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93758B852A7B89E90077E345 /* Build configuration list for PBXNativeTarget "AjantaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93758B862A7B89E90077E345 /* Debug */,
+				93758B872A7B89E90077E345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		93868BE22A7B8B120064F85C /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		93868BE32A7B8B120064F85C /* AppCenterAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93868BE22A7B8B120064F85C /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterAnalytics;
+		};
+		93868BE52A7B8B120064F85C /* AppCenterCrashes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93868BE22A7B8B120064F85C /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterCrashes;
+		};
+		93868BE72A7B8B120064F85C /* AppCenterDistribute */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 93868BE22A7B8B120064F85C /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
+			productName = AppCenterDistribute;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 93758B532A7B89E50077E345 /* Project object */;
+}
+
+
+
+
