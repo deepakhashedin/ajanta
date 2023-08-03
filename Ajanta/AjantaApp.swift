@@ -16,8 +16,9 @@ struct AjantaApp: App {
     init() {
         
         // Ajanta App
-        AppCenter.start(withAppSecret: "e7a8a264-ff00-48a8-9c9b-b174887d45eb", services: [Analytics.self, Crashes.self])
+        // AppCenter.start(withAppSecret: "e7a8a264-ff00-48a8-9c9b-b174887d45eb", services: [Analytics.self, Crashes.self])
         
+        AppCenter.start(withAppSecret: "67a5b6d9-5e5c-402a-8ae7-b3da37c97503", services: [Analytics.self, Crashes.self])
         // Retirement App
 //        AppCenter.start(withAppSecret: "0b2864ff-aaad-4f38-805b-4c823815796c", services: [Analytics.self, Crashes.self])
 
