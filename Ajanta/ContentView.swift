@@ -6,14 +6,25 @@
 //
 
 import SwiftUI
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 struct ContentView: View {
+    
+    private let devBranchVariable = "Hi from dev branch"
+    
+    init() {
+//        Analytics.trackEvent("My custom event from Ajanta App");
+//        Crashes.generateTestCrash();
+    }
+    
     var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello, world!, from \(devBranchVariable)")
         }
         .padding()
     }
