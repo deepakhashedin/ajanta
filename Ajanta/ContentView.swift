@@ -14,6 +14,9 @@ struct ContentView: View {
     
     private let devBranchVariable = "Hi from dev branch"
     
+    private let featureOn1Variable = "Hi from feature 1 branch"
+
+    
     init() {
 //        Analytics.trackEvent("My custom event from Ajanta App");
 //        Crashes.generateTestCrash();
